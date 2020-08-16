@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { StyleSheet, View } from 'react-native'
+import { StyleSheet, SafeAreaView, View } from 'react-native'
 
 import Chart from './containers/chart'
 import Ranges from './containers/ranges'
@@ -21,10 +21,13 @@ export default class App extends Component {
     return (
         <Provider store={store}>
           <View style={styles.container}>
-            <Chart />
-            <Ranges />
-            <List />
-          </View> 
+            <SafeAreaView style={styles.topArea}/>
+            <SafeAreaView style={styles.bottomArea}>
+              <Chart />
+              <Ranges />
+              <List />
+            </SafeAreaView> 
+          </View>
         </Provider>  
     );
   }
@@ -32,7 +35,15 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1
+  },
+  topArea: {
+    flex: 0
+  },
+  bottomArea: {
     flex: 1,
-    paddingTop: 20
+    backgroundColor: 'rgba(0, 128, 255, 1)'
   }
+
 });
+// 'rgba(0, 128, 255, 1)'
