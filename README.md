@@ -8,18 +8,18 @@ A mobile application that displays visualistic chart of cryptocurrency prices ov
 
 ## How to run this app
 
-### Simply download all of the files, and then run this code inside the file directory with the command line
+### Simply download all of the files, and then run this code inside the file directory with the command line:
 ```
 npm install
 ```
 ### Depending on the mobile platform you wish to run, run one of this code in the command line
 
-iOS (XCode is required)
+iOS (XCode is required):
 ```
 react-native run-ios
 ```
 
-Android (Android Studio is required)
+Android (Android Studio is required):
 ```
 react-native run-android
 ```
