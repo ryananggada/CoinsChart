@@ -13,6 +13,7 @@ A mobile application that displays visualistic chart of cryptocurrency prices ov
 npm install
 ```
 <br />
+
 ### Depending on the mobile platform you wish to run, run one of this code in the command line
 
 iOS (XCode is required):
