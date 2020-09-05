@@ -1,3 +1,3 @@
 # CoinsChart
 
-![screenshots](Scene01.png)
+![Screenshot](screenshots/Scene01.png)
